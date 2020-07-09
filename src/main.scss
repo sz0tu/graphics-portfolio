@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+// flex style //
+
+.ss-justify-center {
+  justify-content: center;
+}
+
+.ss-align-center {
+  align-items: center;
+}
+
+.ss-text-center {
+  text-align: center;
+}
+
+.full-h-w {
+  width: 100%;
+
+}
+
+.img-phone {
+  width: 70%;
+  //height: 70%;
+  margin: 25vh 0;
+}
