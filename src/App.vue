@@ -1,10 +1,10 @@
 <template>
     <div id="app">
-<!--        <transition name="slide-fade">-->
-<!--      <span>-->
-<!--    <circle-loading :loading="testt" @update-cart="zmiana"/>-->
-<!--      </span>-->
-<!--        </transition>-->
+        <transition name="slide-fade">
+      <span>
+    <circle-loading :loading="testt" @update-cart="zmiana"/>
+      </span>
+        </transition>
 
 
         <transition name="slide-fade">
@@ -13,7 +13,8 @@
                 <box-flex data-aos="fade-left" class="img-phone"><img src="./assets/images/2.jpg"  style="width:100%;" alt=""></box-flex>
                 <box-flex data-aos="fade-right"  class="img-phone"><img src="./assets/images/2.jpg"  style="width:100%;" alt=""></box-flex>
                 <box-flex data-aos="fade-left"  class="img-phone"><img src="./assets/images/2.jpg"  style="width:100%;" alt=""></box-flex>
-                <box-flex  data-aos="fade-rigth"  class="img-phone"><img src="./assets/images/2.jpg"  style="width:100%;" alt=""></box-flex>
+                <box-flex  data-aos="fade-righ"  class="img-phone"><img src="./assets/images/2.jpg"  style="width:100%;" alt=""></box-flex>
+                <box-flex  data-aos="fade-righ"  class="img-phone"><img src="./assets/images/2.jpg"  style="width:100%;" alt=""></box-flex>
             </FlexContainer>
 
 
@@ -36,7 +37,7 @@
         data() {
             return {
                 testt: true,
-                show: true,
+                show: false,
                 url: '/img/',
                 jpg: '.jpg'
             }
